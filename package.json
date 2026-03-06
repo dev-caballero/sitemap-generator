@@ -1,0 +1,26 @@
+{
+  "name": "sitemap-generator",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.4.2",
+    "nuxt": "^4.3.1",
+    "pg": "^8.20.0",
+    "vue": "^3.5.29",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@prisma/client": "^7.4.2",
+    "@types/node": "^25.3.5",
+    "prisma": "^7.4.2",
+    "yarn": "^1.22.22"
+  }
+}

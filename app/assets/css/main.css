@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --font-family: "Inter", system-ui, sans-serif;
+  --bg-color: #f8fafc;
+  --text-color: #0f172a;
+  --text-muted: #64748b;
+  --border-color: #cbd5e1;
+  --border-focus: #3b82f6;
+  --node-bg: #ffffff;
+  --node-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --node-radius: 12px;
+  --primary-color: #0f172a;
+  --primary-hover: #334155;
+  --danger-color: #ef4444;
+  --danger-hover: #dc2626;
+  --line-color: #94a3b8;
+  --line-width: 2px;
+  --node-width: 260px;
+
+  /* Theme extras */
+  --dot-color: #cbd5e1;
+  --surface-color: #ffffff;
+  --surface-hover: #f1f5f9;
+  --surface-secondary: #f8fafc;
+  --node-header-bg: #111111;
+  --node-sections-bg: #f4f4f4;
+  --card-border: #d4d4d4;
+  --input-bg: #ffffff;
+}
+
+html.dark {
+  --bg-color: #121212;
+  --text-color: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --border-color: #3a3a3a;
+  --border-focus: #3b82f6;
+  --node-bg: #1e1e1e;
+  --node-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  --primary-color: #e4e4e7;
+  --primary-hover: #f4f4f5;
+  --danger-color: #f87171;
+  --danger-hover: #ef4444;
+  --line-color: #525252;
+
+  --dot-color: #3a3a3a;
+  --surface-color: #1e1e1e;
+  --surface-hover: #2a2a2a;
+  --surface-secondary: #161616;
+  --node-header-bg: #111111;
+  --node-sections-bg: #2a2a2a;
+  --card-border: #404040;
+  --input-bg: #2a2a2a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.5;
+  height: 100%;
+}
+
+/* Subtle dot grid pattern mimicking a canvas board */
+.canvas-board {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 80px 40px;
+  overflow: auto;
+  background-image: radial-gradient(var(--dot-color) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background: none;
+}
+
+input {
+  font-family: inherit;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  width: 100%;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+html.dark .btn-primary {
+  color: #121212;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}

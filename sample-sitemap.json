@@ -1,0 +1,176 @@
+{
+  "id": "root",
+  "title": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "id": "s1_nav",
+      "title": "Navbar",
+      "description": ""
+    },
+    {
+      "id": "s1_hero",
+      "title": "Hero Header Section",
+      "description": "Introduce the company with a strong headline, highlight the main value proposition, and include a CTA to learn more."
+    },
+    {
+      "id": "s1_clients",
+      "title": "Client Logos List",
+      "description": "Showcase prominent clients and partners to build credibility and trust."
+    },
+    {
+      "id": "s1_feat1",
+      "title": "Feature Section",
+      "description": "Highlight the company's core expertise and competitive advantages."
+    },
+    {
+      "id": "s1_feat2",
+      "title": "Features List Section",
+      "description": "Showcase up to 3 key services or product offerings with icons and short descriptions."
+    },
+    {
+      "id": "s1_testi",
+      "title": "Testimonial Section",
+      "description": "Display customer testimonials and success metrics from past engagements."
+    },
+    {
+      "id": "s1_cta",
+      "title": "CTA Section",
+      "description": "Encourage visitors to request a quote or schedule a consultation."
+    },
+    {
+      "id": "s1_foot",
+      "title": "Footer",
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "id": "j3k9a1b",
+      "title": "About Us",
+      "path": "/about",
+      "sections": [
+        {
+          "id": "s2_nav",
+          "title": "Navbar",
+          "description": ""
+        },
+        {
+          "id": "s2_head",
+          "title": "Header Section",
+          "description": "Introduce the About page with a tagline that highlights the company's mission and vision."
+        },
+        {
+          "id": "s2_about",
+          "title": "About Section",
+          "description": "Provide a brief history of the company, its founders, and core values."
+        },
+        {
+          "id": "s2_team",
+          "title": "Team Section",
+          "description": "Showcase the key team members with their roles and brief bios."
+        },
+        {
+          "id": "s2_foot",
+          "title": "Footer",
+          "description": ""
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "p4l6v2n",
+      "title": "Services",
+      "path": "/services",
+      "sections": [
+        {
+          "id": "s3_nav",
+          "title": "Navbar",
+          "description": ""
+        },
+        {
+          "id": "s3_head",
+          "title": "Header Section",
+          "description": "Introduce the Services page and outline the benefits of choosing our solutions."
+        },
+        {
+          "id": "s3_list",
+          "title": "Services List Section",
+          "description": "Detail the main service offerings with scope, deliverables, and expected outcomes."
+        },
+        {
+          "id": "s3_proc",
+          "title": "Process Section",
+          "description": "Explain the step-by-step methodology the company follows from discovery to delivery."
+        },
+        {
+          "id": "s3_foot",
+          "title": "Footer",
+          "description": ""
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b5u1i8o",
+      "title": "Portfolio",
+      "path": "/portfolio",
+      "sections": [
+        {
+          "id": "s4_nav",
+          "title": "Navbar",
+          "description": ""
+        },
+        {
+          "id": "s4_head",
+          "title": "Header Section",
+          "description": "Welcome visitors to the company's work gallery and highlight key achievements."
+        },
+        {
+          "id": "s4_grid",
+          "title": "Projects Grid",
+          "description": "Filterable grid of completed projects, case studies, and client success stories."
+        },
+        {
+          "id": "s4_foot",
+          "title": "Footer",
+          "description": ""
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c7x2y4z",
+      "title": "Contact",
+      "path": "/contact",
+      "sections": [
+        {
+          "id": "s5_nav",
+          "title": "Navbar",
+          "description": ""
+        },
+        {
+          "id": "s5_head",
+          "title": "Header Section",
+          "description": "Encourage visitors to get in touch with the team."
+        },
+        {
+          "id": "s5_form",
+          "title": "Contact Form Section",
+          "description": "Provide a form for visitors to submit inquiries, project details, and timelines."
+        },
+        {
+          "id": "s5_loc",
+          "title": "Locations Section",
+          "description": "Display the company's office location with an interactive map."
+        },
+        {
+          "id": "s5_foot",
+          "title": "Footer",
+          "description": ""
+        }
+      ],
+      "children": []
+    }
+  ]
+}
